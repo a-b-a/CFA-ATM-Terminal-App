@@ -1,13 +1,9 @@
-#To add
-#counter for for loop
-#tests for both big and small W/D
-#error for non amount in W/D??
-
 #Variable for the balance of the account. the variable balance is a local variable.
 #They only exists within it's scope (current block) @variable however is an
 #instance variable - and is available to all methods within the class.
 #Note that all instances of the variable @balance must include the @
 @balance = 100
+
 #this is used to count the number of times the question is asked.
 @i = 0
 
@@ -50,3 +46,5 @@ for times in 1..10
 end
 #prints the counter at the end
 puts @i
+
+#This is a test set of text
